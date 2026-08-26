@@ -1,0 +1,138 @@
+{
+  // appearance
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "GitHub Dark",
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "workbench.iconTheme": "symbols",
+  // window
+  "window.titleBarStyle": "native",
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 1,
+  // workbench layout
+  "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "none",
+  "workbench.list.smoothScrolling": true,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.showTabs": "multiple",
+  "workbench.sideBar.location": "right",
+  // top bar
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "window.customTitleBarVisibility": "never",
+  // editor fonts
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontSize": 11,
+  // editor behavior
+  "editor.formatOnSave": true,
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "solid",
+  "editor.smoothScrolling": true,
+  "editor.padding.top": 4,
+  "editor.padding.bottom": 4,
+  // editor ui
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.glyphMargin": false,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": false,
+  // color customizations
+  "workbench.colorCustomizations": {
+    "widget.shadow": "#00000000",
+    "scrollbar.shadow": "#00000000",
+    "editorWidget.shadow": "#00000000",
+    "breadcrumb.background": "#00000000",
+    "sideBar.border": "#00000000",
+    "editorGroup.border": "#00000000"
+  },
+  // terminal
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "terminal.integrated.fontSize": 11,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.suggest.enabled": false,
+  "terminal.integrated.shellIntegration.enabled": false,
+  // debug console
+  "debug.console.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "debug.console.fontSize": 11,
+  // privacy and security
+  "security.workspace.trust.enabled": false,
+  "chat.disableAIFeatures": true,
+  // extensions
+  "errorLens.enabled": true,
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning"
+  ],
+  "errorLens.delay": 500,
+  // better comments
+  "better-comments.strict": false,
+  "better-comments.highlightPlainText": false,
+  // c/c++
+  "clangd.arguments": [
+    "--fallback-style=Google"
+  ],
+  "clangd.fallbackFlags": [
+    "-Wall",
+    "-Wextra"
+  ],
+  "[c][cpp]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+    "editor.rulers": [
+      100
+    ]
+  },
+  // cmake and debug (lldb)
+  "cmake.debugConfig": {
+    "type": "lldb-dap",
+    "runInTerminal": true
+  },
+  "lldb-dap.executable-path": "/usr/bin/lldb-dap-18",
+  // java
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-26",
+      "path": "/home/fn/.local/share/sdkman/candidates/java/26.0.2-tem",
+      "default": true
+    }
+  ],
+  "java.import.gradle.home": "/home/fn/.local/share/sdkman/candidates/gradle/current",
+  "java.import.gradle.java.home": "/home/fn/.local/share/sdkman/candidates/java/26.0.2-tem",
+  "maven.executable.path": "/home/fn/.local/share/sdkman/candidates/maven/current/bin/mvn",
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.rulers": [
+      120
+    ]
+  },
+  "redhat.telemetry.enabled": false,
+  // spring
+  "spring-boot.ls.java.home": "/home/fn/.local/share/sdkman/candidates/java/26.0.2-tem",
+  // python
+  "python.analysis.typeCheckingMode": "standard",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    },
+    "editor.rulers": [
+      88
+    ]
+  },
+  // json
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2
+  },
+  // toml
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml",
+    "editor.rulers": [
+      88
+    ]
+  },
+  "evenBetterToml.formatter.columnWidth": 88,
+}
